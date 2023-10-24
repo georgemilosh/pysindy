@@ -42,3 +42,7 @@ docs/_build
 *.sublime*
 
 .hypothesis/
+
+#Image files
+*.pdf
+*.png
