@@ -101,6 +101,13 @@ Installation
 Installing with pip
 ^^^^^^^^^^^^^^^^^^^
 
+Because the group is still working on version 2.0 of PySINDy, we recommend installing the latest version from GitHub. To do so, run
+.. code-block:: bash
+    git clone git@github.com:dynamicslab/pysindy.git
+    cd pysindy
+    pip install .[dev,cvxpy]
+    
+Alternatively if this is not your concern you may proceed with general instructions provided by the creators:
 If you are using Linux or macOS you can install PySINDy with pip:
 
 .. code-block:: bash
